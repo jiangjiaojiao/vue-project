@@ -1,0 +1,88 @@
+/* Created by luoyifei on 2018/1/19. */
+.tips, .loading, .alert, .confirm {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  margin: auto;
+  background-color: rgba(37, 37, 37, 0.45);
+}
+
+.center-block {
+  /*display: inline-block;
+  vertical-align: middle;*/
+  border-radius: 4px;
+  /*margin: 50vh auto 0;
+  transform: translateY(-50%);*/
+        margin: 40% auto;
+}
+
+.bg p {
+  padding: 0;
+  margin: 0;
+}
+
+.bg img {
+  margin: 8px;
+  width: 36px;
+  /* height: 2.25rem; */
+}
+
+.bg {
+  display: inline-block;
+  margin:40% auto;
+  padding: 2% 4%;
+  background-color: #4D4D4D;
+  font-size: 16px;
+  color: #FFF;
+  z-index: 99;
+}
+
+/* 弹窗开始 */
+.alt, .con {
+  background-color: #FFF;
+  width: 280px;
+  padding-top: 16px;
+}
+
+.alt, .con > .title {
+  font-size: 18px;
+  color: #333333;
+  padding: 3% 0;
+  margin: 0;
+}
+
+.alt, .con > .content {
+  font-size: 16px;
+  color: #888888;
+  padding: 0;
+  margin: 2% 5%;
+}
+
+.operation > .popup-btn {
+  color: #C9A568;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.operation {
+  border-top: 1px solid #E8E8E8;
+}
+
+.con  .popup-btn {
+  display: inline-block;
+  width: 49.5%;
+}
+
+.con .cancelBtn {
+  color: #333333 !important;
+  border-right: 1px solid #E8E8E8;
+}
+
+/* 弹窗结束*/
